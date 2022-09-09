@@ -1,5 +1,9 @@
 /*rndhrs_hlth_trs_data*/
 
+/* ====================================================================== */
+/* DELETE CACHE */
+/* ====================================================================== */
+
 /* delete all the files in the work library */
 proc datasets library=work kill;
 run;
@@ -30,7 +34,7 @@ quit;
 /* ====================================================================== */
 
 /* CHANGE the home directory */
-%let DIR = C:\Users\;
+%let DIR = C:\Users;
 
 /* CHANGE the name of the folder where the downloded dataset is saved */
 /*    there can be multiple projects associated with the same dataset */
@@ -39,10 +43,7 @@ quit;
 /* CHANGE the working project folder */
 %let PROJECT = git health trs;
 
-/* CHANGE the name of the folder where the SAS macros are saved */
-%let MACRODIR = &DIR\&PROJECT\sas_macro;
-
-/* list time-dependent and time-independent variables required
+/* CHANGE the list of time-dependent and time-independent variables 
 codeRaVars.sas 
 	define a macro variable RaVars that lists time-independent variables (except for &idVar)
 
@@ -85,6 +86,7 @@ codeRxSufxlst.sas
 /* ====================================================================== */
 /* IMPORT MACRO FUNCTIONS */
 /* ====================================================================== */
+%let MACRODIR = &DIR\&PROJECT\sas_macro;
 %include "&MACRODIR\wvlist.mac"; /* to use %wvlist() */
 %include "&MACRODIR\multilong.sas"; 
 %include "&MACRODIR\calAge.sas"; 
