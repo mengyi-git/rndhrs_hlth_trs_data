@@ -27,3 +27,6 @@ Run `main.sas`.
 ## SAS macro functions
 
 The SAS macro functions in the folder `sas_macro` are created based on various sources. More details can be found at [https://github.com/mengyi-git/sas_macro](https://github.com/mengyi-git/sas_macro).
+
+# Questions and comments
+If you have trouble running the code or have better ideas to improve the code, please [log an issue](https://github.com/mengyi-git/rndhrs_hlth_trs_data/issues).
