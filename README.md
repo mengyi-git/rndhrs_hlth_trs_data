@@ -16,6 +16,8 @@ Open `main.sas` and change the following SAS macro variables.
 - `FD_STATE` represents the functional disabled state and `DEAD_STATE` represents the dead state.
   - The code defines the health state based on activities of daily living. You can re-define the health states.
 
+Create a `data` folder in `DIR\PROJECT`. The intermediate datasets are saved in the `data` folder.
+
 Open `codeRaVars.sas` and modify the list of time-independent variables you want to keep.
 
 Open `codeRxSufxlst.sas` and modify the list of time-dependent variables you want to keep.
