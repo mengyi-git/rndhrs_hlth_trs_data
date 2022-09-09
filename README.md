@@ -23,3 +23,7 @@ Open `codeRaVars.sas` and modify the list of time-independent variables you want
 Open `codeRxSufxlst.sas` and modify the list of time-dependent variables you want to keep.
 
 Run `main.sas`.
+
+## SAS macro functions
+
+The SAS macro functions in the folder `sas_macro` are created based on various sources. More details can be found at [https://github.com/mengyi-git/sas_macro](https://github.com/mengyi-git/sas_macro).
