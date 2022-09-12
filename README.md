@@ -1,6 +1,23 @@
 # Introduction
 
-The code creates a health state transition dataset using the [RAND HRS Longitudinal File](https://www.rand.org/well-being/social-and-behavioral-policy/centers/aging/dataprod/hrs-data.html). The code can also be modifed for other datasets, e.g., Chinese Longitudinal Healthy Longevity Survey (CLHLS).
+The code creates a health state transition dataset using the [RAND HRS Longitudinal File](https://www.rand.org/well-being/social-and-behavioral-policy/centers/aging/dataprod/hrs-data.html). The code can also be modifed for other datasets, e.g., Chinese Longitudinal Healthy Longevity Survey (CLHLS). 
+
+Below is an excerpt of the output.
+
+|WAVE|WAVE2|RxYEAR|RxYEAR2|RxHSTATE|RxHSTATE2|RxAGE      |RxAGE2     |
+|----|-----|------|-------|--------|---------|-----------|-----------|
+|4   |5    |1998  |2000   |1       |1        |63.6659822 |65.41546886|
+|5   |6    |2000  |2001   |1       |4        |65.41546886|67.1266256 |
+|4   |5    |1998  |2000   |1       |1        |59.58110883|61.49760438|
+|5   |6    |2000  |2002   |1       |1        |61.49760438|63.58110883|
+|6   |7    |2002  |2004   |1       |1        |63.58110883|65.83162218|
+|7   |8    |2004  |2006   |1       |1        |65.83162218|67.49623546|
+|8   |9    |2006  |2008   |1       |1        |67.49623546|69.41820671|
+|9   |10   |2008  |2010   |1       |2        |69.41820671|72         |
+|10  |11   |2010  |2012   |2       |1        |72         |73.83162218|
+|11  |12   |2012  |2014   |1       |2        |73.83162218|75.66324435|
+|12  |13   |2014  |2015   |2       |4        |75.66324435|77.12525667|
+
 
 # How to use the code
 
